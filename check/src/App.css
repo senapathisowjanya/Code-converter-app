@@ -1,0 +1,119 @@
+/* src/CodeConverterApp.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(0, 213, 255);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.monaco-box{
+  display: flex;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.monaco-editor {
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 0px 0px 0px 20px;
+}
+
+/* src/CodeConverterApp.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:0px;
+}
+
+.navbar {
+  background-color: black;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+.navbar h2 {
+  margin: 0;
+  color: white;
+}
+
+.button-group {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.action-button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(0, 213, 255);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  border-bottom: 3px dotted black;
+  border-right: 2px dotted black;
+}
+
+.language-select {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 213, 255);
+  color: white;
+  border-bottom: 3px dotted black;
+  border-right: 2px dotted black;
+}
+
+.monaco-input,
+.monaco-output {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+/* .monaco-input {
+  padding-right: 5px;
+}
+
+.monaco-output {
+  padding-left: 5px;
+}
+
+.monaco-editor {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+} */
+
